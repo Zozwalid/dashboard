@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+
+<head>
+    <title>تسجيل الدخول</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+   
+    <style>
+        .parent {
+            width: 900px;
+            height: 500px;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            margin-left: -450px;
+            margin-top: -250px;
+            background-color: rgb(230, 231, 233);
+
+        }
+
+        .clear-both {
+            clear: both;
+        }
+
+        /**start welcome**/
+        .parent .welcome {
+            float: right;
+            width: 450px;
+            height: 100%;
+            background-color: #baf3e6;
+            border: 1px solid #baf3e6;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            color: #2a737a;
+            text-transform: capitalize;
+
+        }
+
+        .parent .welcome .logo {
+            width: 250px;
+            height: auto;
+        }
+
+        .parent .welcome a {
+            width: 150px;
+            height: 30px;
+            border: 3px solid #1c4c50;
+            border-radius: 20px;
+            background-color: transparent;
+            color: #1c4c50;
+            font-size: 17px;
+            text-align: center;
+            text-decoration: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        /**end welcome**/
+        /**start header**/
+        .parent .log-in {
+            width: 446px;
+            height: 100%;
+            position: absolute;
+            background-color: white;
+            border: 1px solid white;
+        }
+
+        .parent .log-in .header {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .parent .log-in .header h3 {
+            float: right;
+            text-transform: capitalize;
+            font-weight: 1000;
+            font-size: 27px;
+            margin-right: 15px;
+            color: #2a737a;
+
+        }
+
+        .parent .log-in .header a {
+            text-decoration: none;
+        }
+
+        .parent .log-in .header ul {
+            float: left;
+            list-style: none;
+            margin-top: 30px;
+        }
+
+        .parent .log-in .header ul li {
+            float: left;
+            margin-right: 10px;
+        }
+
+        .parent .log-in .header ul li i {
+            font-size: 30px;
+        }
+
+        .parent .log-in .header .fa-instagram {
+            color: #2a737a;
+
+        }
+
+        .parent .log-in .header .fa-facebook-square {
+            color: #2a737a;
+        }
+
+        .parent .log-in .header ul li i:hover {
+            color: grey;
+        }
+
+        /**end header*/
+        /**start form*/
+        .parent .log-in .body .form {
+            width: 75%;
+            margin: 0px 25%;
+            margin-top: 50px;
+            height: 100%;
+            font-size: 20px;
+        }
+
+        .parent .log-in .body .form p {
+            color: #2a737a;
+            margin: 10px 50px 0px;
+            text-align: right;
+        }
+
+        .parent .log-in .body .form input {
+            width: 280px;
+            height: 25px;
+            border-radius: 20px;
+            border: 2.5px solid #2a737a;
+            background-color: transparent;
+            color: #2a737a;
+            text-align: right;
+        }
+
+        .parent .log-in .body .form [type="submit"] {
+            width: 289px;
+            margin-top: 15px;
+            border-radius: 20px;
+            border: 2.5px solid #2a737a;
+            background-color: white;
+            color: #2a737a;
+            text-align: center;
+        }
+
+        .parent .log-in .body .form .remember-forgot #check {
+            width: 15px;
+            height: 15.5px;
+            margin: 0px;
+            float: left;
+            margin-top: 13px;
+            margin-right: 2px;
+        }
+
+        .parent .log-in .body .form .remember-forgot #remember {
+            float: left;
+            font-size: 20px;
+            width: 120px;
+            margin-top: 10px;
+            color: #2a737a;
+        }
+
+        .parent .log-in .body .form .remember-forgot #forgot {
+            margin-top: 12px;
+            float: right;
+            font-size: 18px;
+            margin-right: 50px;
+            color: #2a737a;
+            text-decoration: none;
+        }
+
+        /**end form**/
+    </style>
+
+</head>
+
+<body>
+    <div class="parent">
+        <div class="welcome">
+            <div class="logo">logo</div>
+            <p>ليس لديك حساب؟</p>
+            <!-- <form >
+                   <input type="submit" value="انساء حساب">
+               </form> -->
+            <a href="regester.html">انشاء حساب</a>
+        </div>
+        <div class="log-in">
+            <div class="header">
+                <h3>تسجيل الدخول</h3>
+                <ul>
+                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="clear-both"></div>
+            <div class="body">
+
+                <div class="form">
+
+                    <div class="user-pass">
+                        <p>الايميل</p>
+                        <input type="email" placeholder="الايميل   " id="email" required>
+                        <p>كلمه السر</p>
+                        <input type="password"  id="pass" placeholder="كلمه السر  " required>
+                        <p id="alert"></p>
+                        <input type="submit" value="تسجيل الدخول" onclick="href : dashboard.html">
+
+                    </div>
+                    <div class="remember-forgot">
+                        <input type="checkbox" id="check">
+                        <span id="remember">تذكرني</span>
+                        <a href="#" id="forgot" target="_blank">نسيت كلمه السر؟</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+</body>
